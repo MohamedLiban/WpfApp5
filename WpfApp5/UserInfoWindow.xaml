@@ -1,0 +1,9 @@
+﻿<Window x:Class="YourNamespace.UserInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="User Info" Height="200" Width="300">
+    <StackPanel Margin="10">
+        <Label Content="Användarinformation:"/>
+        <TextBlock x:Name="userInfoTextBlock"/>
+    </StackPanel>
+</Window>
